@@ -19,11 +19,6 @@ public class NoOvertime {
 			no--;
 		}
 		
-		System.out.println("no: " + no);
-		for(int i : works) {
-			System.out.print("[" + i + "]");
-		}
-		
 		for(int i = 0; i < works.length; i++) {
 			result += (int)Math.pow(works[i], 2);
 		}
